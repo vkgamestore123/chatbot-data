@@ -1,5 +1,5 @@
 {
-    "question": "Bạn có gặp lỗi khi chạy game không?",
+    "question": "Xin chào, tôi có thể giúp gì cho bạn?",
     "keywords": {
         "đúng": {
             "question": "Nó có hiện tượng gì?",
@@ -21,6 +21,7 @@
                 "đóng đột ngột": "Game bị đóng đột ngột có thể do RAM hoặc xung đột phần mềm. Hãy thử kiểm tra nhiệt độ CPU/GPU và đóng bớt ứng dụng chạy nền."
             }
         },
-        "không": "Nếu không có lỗi, chúc bạn chơi game vui vẻ!"
+        "không": "Nếu không có lỗi, chúc bạn chơi game vui vẻ!",
+        "địt": "Tôi hy vọng bạn chỉ là khẩu xà tâm phật"
     }
 }
