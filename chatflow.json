@@ -18,10 +18,52 @@
                         "không": "Có thể do mạng hoặc nhiệt độ máy. Kiểm tra lại tốc độ mạng và nhiệt độ CPU/GPU."
                     }
                 },
-                "đóng đột ngột": "Game bị đóng đột ngột có thể do RAM hoặc xung đột phần mềm. Hãy thử kiểm tra nhiệt độ CPU/GPU và đóng bớt ứng dụng chạy nền."
+                "đóng đột ngột": {
+                    "question": "Bạn có thấy lỗi nào xuất hiện trước khi game tắt không?",
+                    "keywords": {
+                        "không": "Có thể do RAM hoặc xung đột phần mềm. Hãy thử kiểm tra nhiệt độ CPU/GPU và đóng bớt ứng dụng chạy nền.",
+                        "có": "Hãy thử tìm lỗi đó trên trang hỗ trợ của game để biết cách khắc phục."
+                    }
+                }
+            }
+        },
+        "có": {
+            "question": "Nó có hiện tượng gì?",
+            "keywords": {
+                "màn hình đen": {
+                    "question": "Bạn đã thử cập nhật driver chưa?",
+                    "keywords": {
+                        "đã thử": "Có thể do game bị thiếu file. Hãy thử cài lại DirectX và Visual C++ Redistributable.",
+                        "chưa thử": "Hãy thử cập nhật driver đồ họa rồi kiểm tra lại."
+                    }
+                }
             }
         },
         "không": "Nếu không có lỗi, chúc bạn chơi game vui vẻ!",
-        "địt": "Tôi hy vọng bạn chỉ là khẩu xà tâm phật"
+        "vâng": {
+            "question": "Nó có hiện tượng gì?",
+            "keywords": {
+                "lag": {
+                    "question": "Game của bạn có đang chạy ở cấu hình cao không?",
+                    "keywords": {
+                        "đúng vậy": "Thử giảm thiết lập đồ họa xuống thấp hơn.",
+                        "không": "Có thể do mạng hoặc nhiệt độ máy. Kiểm tra lại tốc độ mạng và nhiệt độ CPU/GPU."
+                    }
+                }
+            }
+        },
+        "phải": {
+            "question": "Nó có hiện tượng gì?",
+            "keywords": {
+                "màn hình đen": {
+                    "question": "Bạn đã thử cập nhật driver chưa?",
+                    "keywords": {
+                        "đã thử": "Có thể do game bị thiếu file. Hãy thử cài lại DirectX và Visual C++ Redistributable.",
+                        "chưa thử": "Hãy thử cập nhật driver đồ họa rồi kiểm tra lại."
+                    }
+                }
+            }
+        },
+        "địt": "Xin hãy giữ cuộc trò chuyện lịch sự nhé! 😊"
     }
 }
