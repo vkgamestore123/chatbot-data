@@ -2,7 +2,7 @@
     "question": "Xin chào, tôi có thể nói tiếng Việt hoặc tiếng Anh, bạn chọn cái nào / Hello, I can speak Vietnamese or English, which one do you choose?",
     "keywords": {
         "Việt; việt": {
-            "question": "Tôi là người quản lý của trang web Milfgames, được ủy quyền bởi người sáng lập VKGAME, nhiệm vụ của tôi là tiếp nhận phản hồi từ người xem và giải đáp các thắc mắc. Vậy tôi có thể giúp gì cho bạn?",
+            "question": "Ta là quản lý của Milfgames, được chính người sáng lập VKGAME ủy quyền. Nhiệm vụ của ta là tiếp nhận phản hồi và giải đáp thắc mắc, nhưng chỉ những gì đáng để trả lời. Vậy, ngươi cần gì?",
             "keywords": {
                 "tìm game; tìm trò chơi; có trò chơi": {
                     "question": "Hãy nói lại tên trò chơi mà bạn đang tìm, tôi sẽ kiểm tra danh sách game hiện có trên trang web này",
