@@ -1,33 +1,45 @@
 {
-    "question": "Xin chào, tôi có thể giúp gì cho bạn?",
+    "question": "Xin chào, tôi có thể nói tiếng Việt hoặc tiếng Anh, bạn chọn cái nào / Hello, I can speak Vietnamese or English, which one do you choose? ",
     "keywords": {
-        "đúng; có; vâng; phải": {
-            "question": "Nó có hiện tượng gì?",
+        "Việt; việt": {
+            "question": "Được thôi, chúng ta sẽ giao tiếp với nhau bằng tiếng Việt. Vậy tôi có thể giúp gì cho bạn?",
             "keywords": {
-                "màn hình đen": {
-                    "question": "Bạn đã thử cập nhật driver chưa?",
+                "tìm game; tìm trò chơi; có trò chơi": {
+                    "question": "Hãy nói lại tên trò chơi mà bạn đang tìm, tôi sẽ kiểm tra danh sách game hiện có trên trang web này",
                     "keywords": {
-                        "đã thử": "Có thể do game bị thiếu file. Hãy thử cài lại DirectX và Visual C++ Redistributable.",
-                        "chưa thử": "Hãy thử cập nhật driver đồ họa rồi kiểm tra lại."
-                    }
-                },
-                "lag": {
-                    "question": "Game của bạn có đang chạy ở cấu hình cao không?",
+                        "need for speed underground 2; nfs u2; nfsu2; nfs underground 2": "https://www.vkgamestore.xyz/2023/04/Download-need-for-speed-underground-2-for-free.html"
+                        }
+                    },
+                "lỗi game; sự cố; không chạy, báo lỗi; lỗi": {
+                    "question": "Bạn đang gặp sự cố khi chạy game? Hãy nói cụ thể về hiện tượng mà bạn nhìn thấy, hoặc cho tôi biết nó thông báo lỗi gì",
                     "keywords": {
-                        "đúng vậy": "Thử giảm thiết lập đồ họa xuống thấp hơn.",
-                        "không": "Có thể do mạng hoặc nhiệt độ máy. Kiểm tra lại tốc độ mạng và nhiệt độ CPU/GPU."
-                    }
-                },
-                "đóng đột ngột": {
-                    "question": "Bạn có thấy lỗi nào xuất hiện trước khi game tắt không?",
-                    "keywords": {
-                        "không": "Có thể do RAM hoặc xung đột phần mềm. Hãy thử kiểm tra nhiệt độ CPU/GPU và đóng bớt ứng dụng chạy nền.",
-                        "có": "Hãy thử tìm lỗi đó trên trang hỗ trợ của game để biết cách khắc phục."
+                        "màn hình đen; black screen; blackscreen; black, đen": "Về lỗi màn hình đen, vui lòng đọc...",
+                        "crash; sập; out; văng; tự tắt, tắt đột ngột; thoát khỏi game": "Về lỗi crash game/ sập game đột ngột, vui lòng đọc..."
+                        }
                     }
                 }
+            },
+        "English; english": {
+    "question": "Alright, we will communicate in English. How can I help you?",
+    "keywords": {
+        "find game; search for game; have game": {
+            "question": "Please provide the name of the game you are looking for, and I will check the available game list on this website.",
+            "keywords": {
+                "need for speed underground 2; nfs u2; nfsu2; nfs underground 2": "https://www.vkgamestore.xyz/2023/04/Download-need-for-speed-underground-2-for-free.html"
             }
         },
-        "không": "Nếu không có lỗi, chúc bạn chơi game vui vẻ!",
-        "địt; lồn; buồi; cặc; fuck": "Xin hãy giữ cuộc trò chuyện lịch sự nhé! 😊"
+        "game error; issue; not running; error message; error": {
+            "question": "Are you experiencing an issue while running the game? Please describe the symptoms you see or let me know what error message appears.",
+            "keywords": {
+                "black screen; blackscreen; black, dark screen": "For black screen issues, please read...",
+                "crash; shutdown; out; force close; sudden close; exit game": "For sudden game crashes, please read..."
+            }
+        }
     }
 }
+        }
+    }
+
+    
+            
+                
